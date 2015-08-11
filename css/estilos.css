@@ -1,0 +1,211 @@
+body {
+	background-color:#6E6E6E;
+	background-image: url(../images/madera.png);
+	background-repeat:repeat;
+	background-attachment:fixed;
+	padding-bottom: 40px;
+	padding-top: 70px;
+	font-family: 'Signika', sans-serif;
+	letter-spacing:1.5px;
+	}
+		
+header {
+	padding:0;
+	margin:0;
+	width:100%;
+	}
+	
+header img{width:100%;}
+
+footer {
+	margin-bottom:15px;
+	}
+	
+footer img{ margin-bottom:5px;}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: -40px; /* Establecemos la barra en la izquierda */
+	top: 300px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+	}
+ 
+	.social ul {
+		list-style: none;
+		}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		/*margin-left:-40px;*/
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+ 
+	.social ul li .icon-truck {/* Establecemos los colores de cada red social, aprovechando su class */
+			background: #d95232;
+			-webkit-border-top-right-radius:5px;
+			-moz-border-radius:5px 5px 0px 0px;
+			border-top-right-radius:5px;} 
+	.social ul li .icon-facebook2 {background:#3b5998;} 
+	.social ul li .icon-twitter4 {background: #00abf0;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail2 {
+			background: #666666;
+			-webkit-border-bottom-right-radius:5px;
+			-moz-border-radius:0px 0px 5px 5px;
+			border-bottom-right-radius:5px;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 40px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+			
+		-webkit-border-top-right-radius:20px;
+		-moz-border-radius:20px 20px 0px 0px;
+		border-top-right-radius:20px;
+		
+		-webkit-border-bottom-right-radius:20px;
+		-moz-border-radius:0px 0px 20px 20px;
+		border-bottom-right-radius:20px;	
+	}
+	
+	dl{
+		text-align:center; 
+		font-size:13px;
+		}
+				
+	dl dt{
+		font-family: 'Luckiest Guy', cursive;
+		font-weight:100;
+		margin-bottom:15px;
+		}
+		
+	dl dd{
+		/*font-weight:600;*/
+		}
+		
+	.encabezado{
+		text-align:center; 
+		font-family: 'Luckiest Guy', cursive;
+		}
+		
+	.clientes{
+		font-size:16px;
+		}	
+				
+	.title{
+		margin-bottom:15px;
+		color:#060;
+		}
+			
+	.derechos{
+		font-size:11px;
+		margin-bottom:5px;
+		}
+				
+	p.primeralinea {
+ 		text-indent: 20px;
+		text-align:justify; 
+		font-size:13px;
+		/*font-weight:600;*/
+		margin-bottom:15px;
+		}
+		
+	 h5{
+		 text-align: center;
+		 font-weight:bold;
+		}
+				
+	.panel-transparent {
+		padding-top:15px;
+     	background-color: rgba(0, 0, 0, 0.6);
+		background: rgba(0, 0, 0, 0.6);
+		color: rgba(0, 0, 0, 0.6);
+    }
+	
+	.panel-gradient{
+		padding-top:15px;
+	/*	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+		background: rgb(255,255,255); /* Old browsers */
+		background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* 	Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+		background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 */*/
+	}
+	
+	.panel-green{
+		color:#fff;
+		text-shadow:1px 1px 1px #568F23;
+		border:1px solid #93CE37;
+		border-bottom:3px solid #9ED929;
+		background-color:#9DD929;
+		background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    	background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+		rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+		-webkit-border-top-left-radius:5px;
+		-webkit-border-top-right-radius:5px;
+		-moz-border-radius:5px 5px 0px 0px;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+	}
+	
+	
+	.hr-style{
+		border: 3px solid #FFF; 
+		border-radius: 300px/10px; 
+		height: 0px; 
+		}
+	
+	table{
+		width:100%;
+		margin-bottom:10px;
+		}
+	
+	.navbar{
+		/*margin-bottom:5px;
+		margin-left:15px;
+		margin-right:15px;
+		margin-top:40px;
+		font-family: 'Ruda', sans-serif;
+		font-weight:600;*/
+		}
+		
+	.span-home{color:#300;}
+	.span-tel{color:#060;}
+	.span-mail{color:#006}
+	
+	
+
+
+/*	#cliente1, #cliente2, #cliente3, #cliente4{width:200px; height:65px; position:relative;}
+	
+	#cliente1{background-image:url(../images/cliente_cespe_gray.jpg); background-repeat:no-repeat;}
+	#cliente1:hover{background-image:url(../images/cliente_cespe.jpg); background-repeat:no-repeat;}
+	
+	#cliente2{background-image:url(../images/cliente_fanosa_gray.png); background-repeat:no-repeat;}
+	#cliente2:hover{background-image:url(../images/cliente_fanosa.png); background-repeat:no-repeat;}
+
+	#cliente3{background-image:url(../images/cliente_canasta_gray.jpg); background-repeat:no-repeat;}
+	#cliente3:hover{background-image:url(../images/cliente_canasta.jpg); background-repeat:no-repeat;}
+		
+	#cliente4{background-image:url(../images/cliente_uabc_gray.png); background-repeat:no-repeat;}
+	#cliente4:hover{background-image:url(../images/cliente_uabc.png); background-repeat:no-repeat;}*/ 	
